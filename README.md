@@ -1,0 +1,3 @@
+# Unhandled Error in MATLAB Function
+
+This repository demonstrates a common error in MATLAB:  an unhandled error within a function.  The `bug.m` file contains a function that throws an error if the input is negative. The example usage at the end of the file shows how this error can cause the entire program to terminate unexpectedly if the error is not properly handled.  The `bugSolution.m` file provides an improved version which uses `try-catch` blocks for robust error handling.
